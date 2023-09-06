@@ -3,81 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Womp Blender Course</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <section>
+    <section id="Home">
         <nav>
-            <img src="./Assets Illustrations/blender_logo.png" alt="">
+            <img src="./Assets Illustrations/blender_logo.png" class = "logo" alt="">
             <ul>
-                <li><a href="#Home"> Home</a></li>
+                <li><a href="#About"> About</a></li>
                 <li><a href="#Discord"> Discord</a></li>
                 <li><a href="#Contact"> Contact</a></li>
+                
             </ul>
         </nav>
 
+        
         <header>
-            <div>
-                <h1>Blender Made With Fun</h1>
-                <p>Best Way To Learn Blender With Fun And Joy! Let's Go! </p>
-                <button>Enroll Now</button>
+            <div class="row">
+            <div class="home_description">
+                <h1>Blender Made With Fun!</h1>
+                <p class="subheader">Best Way To Learn Blender With Fun And Joy! Let's Go! </p>
+                <button class="home_description--button">Enroll Now</button>
             </div>
 
+        
             <figure>
-                <img src="./Assets Illustrations/character 1600.png" alt="Your Instructor's Image">
+                <img src="./Assets Illustrations/character 1600.png" class = "character" alt="Your Instructor's Image">
             </figure>
+            
+            </div>
         </header>
     </section>
 
     <main>
-        <section id = "Home">
+        <section id="About" class="home">
             <h2>What You Are Going To Learn In This Course</h2>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repudiandae pariatur voluptatem quae magni accusamus doloribus sequi et. Voluptate delectus atque, odio nisi deserunt ut.</p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ducimus exercitationem, et ea molestias odit reprehenderit vel nisi obcaecati, sit fugit pariatur voluptatem explicabo velit?
-            </p>
-        </div>
-        
-        <figure>
+
             
-            <img src="./Assets Illustrations/forest road .png" alt="">
-            <img src="./Assets Illustrations/ancient ruins.png" alt="">
-            <img src="./Assets Illustrations/cloud 66 .png" alt="">
-            <img src="./Assets Illustrations/room hdri.png" alt="">
-            <img src="./Assets Illustrations/room.png" alt="">
+                <div class="introduction">
+                    <p>In this section, we'll provide you with a sneak peek into the incredible skills and knowledge you'll acquire throughout this course. Our aim is to ensure you have a clear understanding of what to expect and how this course will empower you to unlock your creativity using Blender.</p>
+                </div>
             
-        </figure>
+                    <h3>1. Blender Fundamentals</h3>
+                    <div class="fundamentals">
+                        <p>We'll start by introducing you to the basics of Blender. You'll learn about its interface, navigation, and the essential tools that form the foundation of your 3D modeling journey. By the end of this section, you'll be comfortable navigating the Blender workspace and manipulating objects in 3D space.</p>
+                    </div>
+                    <figure>
+                        <img src="./Assets Illustrations/blender basics .png" class="blender_navigation" alt="">
+                    </figure>
+
+                    <h3>2. Modeling and Sculpting</h3>
+                    <div class="fundamentals">
+                        <p>Discover the art of 3D modeling and sculpting in Blender. You'll dive into creating 3D objects from scratch, refining their shapes, and adding intricate details. Whether you're interested in creating characters, props, or architectural designs, this section will provide you with the skills to bring your ideas to life.</p>
+                    </div>
+                    <figure>
+                        <img src="/Assets Illustrations/character put.png" class="lilyput" alt="">
+                    </figure>
+
+                    <h3>3. Texturing and Materials</h3>
+                    <div class="fundamentals">
+                        <p>Explore the world of textures and materials, as you learn how to add realistic surfaces and materials to your 3D creations. From creating lifelike textures to understanding PBR (Physically Based Rendering), this section will help your models look stunning and believable.</p>
+                    </div>
+                    <figure>
+                        <img src="./Assets Illustrations/room hdri.png" class="lilyput" alt="">
+                    </figure>
+
+                    <h3>4. Lighting and Rendering</h3>
+                    <div class="fundamentals">
+                        <p>Master the art of lighting and rendering in Blender. You'll discover how to illuminate your scenes effectively, create stunning visual effects, and generate high-quality images and animations. Your 3D creations will come to life with the power of realistic lighting.</p>
+                    </div>
+                    <figure>
+                        <img src="./Assets Illustrations/ancient ruins.png" class="lilyput" alt="">
+                    </figure>
+
+                    <h3>5. Animation and Rigging</h3>
+                    <div class="fundamentals">
+                        <p>Unleash the animation potential of Blender by learning how to rig characters and objects. You'll explore keyframe animation, character rigging, and animation principles to breathe life into your creations, whether for games, films, or visualizations.</p>
+                    </div>
+                    <figure>
+                        <video controls class="lilyput">
+                            <source src="./60 fps.mp4">
+                        </video>
+                        <video controls class="lilyput"> 
+                            <source src="./Comp 1.mp4">
+                        </video>
+                    </figure>
+
+                    <h3>7. Compositing and Post-Production</h3>
+                    <div class="fundamentals">
+                        <p>Learn how to enhance your rendered images and animations through compositing and post-production techniques. You'll gain the knowledge to fine-tune your creations and make them shine with professional polish.</p>
+                    </div>
+                    <figure>
+                        <video controls class="lilyput">
+                            <source src="./without cc.mp4">
+                        </video>
+                        <video controls class="lilyput">
+                            <source src="./with hue and saturation.mp4">
+                        </video>
+                        <video controls class="lilyput">
+                            <source src="./with cc.mp4">
+                        </video>
+                    </figure>
+
+     
         </section>
-        <section id = "Discord">
-            <h2>Discord</h2>
+        <section id = "Discord" class="home">
+
+            
+            <h2>Join Our Discord Community!</h2>
+            <div class="discord">
             <figure>
-                <img src="./Assets Illustrations/discord-logo-png-7617.png" alt="Discord" >
+                <img src="./Assets Illustrations/discord-logo-png-7617.png" class="discord_logo" alt="Discord" >
              
             </figure>
-            <div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A maiores adipisci deserunt magnam accusantium similique qui deleniti provident at temporibus nam facilis nesciunt quibusdam voluptas, accusamus repudiandae tempore. Ipsam, eaque.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo sit aliquid doloremque nihil eaque consequatur animi qui? Saepe temporibus corporis assumenda sunt ipsum enim non, dignissimos odit nisi nihil dicta.</p>
+            <div >
+                <p class="d1">🌟 Join Our Discord Community Today! 🌟</p>
+
+                   <p class="d1">Dear ie.Squad Enthusiast,</p> 
+                    
+                    <p class="d1">We're thrilled to invite you to join our vibrant and dynamic Discord community! 🚀</p>
+                    
+                     <p class="d1"> Discord has become more than just a platform for gamers; it's a bustling hub for communities of all kinds, including ours. Here's why joining us on Discord is an opportunity you won't want to miss:</p>
+                
             </div>
+        </div>
+           
+            <div>
+                <h3>1. Connect with Like-Minded Individuals:</h3>
+                <p class="connect">Discover a diverse and passionate group of people who share your interests, goals, and passions. Forge meaningful connections, exchange ideas, and collaborate with individuals who inspire you.</p>
+            </div>
+
+            <div class="discord2">
+                <h3>2. Real-Time Communication:</h3>
+                <p class="connect">Discord offers instant communication, making it easy to participate in discussions, ask questions, and get immediate feedback. Whether you're seeking advice, sharing your expertise, or just having a casual chat, Discord makes it all seamless.</p>
+            </div>
+
+            <div class="discord2">
+                <h3>3. Exclusive Content and Updates:</h3>
+                <p class="connect">Be the first to access exclusive content, sneak peeks, and important updates related to [Your Community's Focus]. Stay ahead of the curve and gain valuable insights that others won't have access to.</p>
+            </div>
+
+            <div class="discord2">
+                <h3>4. Interactive Events and Activities:</h3>
+                <p class="connect">Participate in interactive events, webinars, Q&A sessions, and competitions hosted by our community. These events are designed to enhance your knowledge, skills, and enjoyment within our community.</p>
+            </div>
+ 
+           <div class="discord2">
+                <h3>5. Collaborate and Network:</h3>
+                <p class="connect">Discord is a hub for collaboration. Connect with potential partners, mentors, or collaborators who can help you grow personally and professionally. The opportunities for collaboration are endless!</p>
+            </div>
+
+            <div class="discord2">
+                <h3>6. Safe and Welcoming Environment:</h3>
+                <p class="connect" >We take pride in maintaining a respectful and inclusive atmosphere. Our moderators ensure a safe space for everyone, where diversity of thought is celebrated, and all members are treated with kindness and respect.</p>
+            </div>
+
+            <div class="discord2">
+                <h3>7. Stay Informed:</h3>
+                <p class="connect">Receive updates and notifications directly on Discord, so you never miss a beat. Stay informed about upcoming events, discussions, and community announcements effortlessly.</p>
+            </div>
+
+            <div class="discord2">
+                <h3>8. Give and Receive Support:</h3>
+                <p class="give1">Whether you're seeking advice, offering your expertise, or simply looking for a friendly ear, our Discord community is here to support you through your journey.</p>
+                <p class="give1">Joining our Discord community is a step toward enriching your knowledge, expanding your network, and being part of something truly special.</p>
+                <p class="give1">Ready to embark on this exciting journey with us? Click the link below to join our Discord community:</p>
+                <p class="give1"><a href="https://discord.gg/294VTunQg8" target="_blank">Click Here To Join Discord</a></p>
+                <p class="give1">We can't wait to welcome you aboard and see the incredible contributions you'll bring to our community.</p>
+            </div>
+            
         </section>
         <section id = "Contact">
-            <h2>Contact</h2>
+            <h2>Contact:</h2>
+            <div class="d">
             <form action="">
                 <span>email</span>
-                <input type="text" placeholder="xyz@gmail.com">
+                <input type="email" placeholder="xyz@gmail.com">
                 <span>Message</span>
-                <input type="text" placeholder="You can ask your doubts">
+                <input type="text" placeholder="Cool Website And Quality Content!">
+                <button>Contact Us!</button>
             </form>
+        </div>
         </section>
     </main>
-    <FOOter>
-        <img src="./Assets Illustrations/blender_logo.png" alt="">
-        <div>
+    <footer>
+        <div class="d">
+        <img src="./Assets Illustrations/blender_logo.png" class="discord_logo">
+    </div>
+        <div class="d">
             <a href="#Home">Home</a>
+            <a href="#About">About</a>
             <a href="#Discord">Discord</a>
             <a href="#Contact">Contact</a>
         </div>
-        <p>Copyright And Claims</p>
-    </FOOter>
+        <p class="d">Copyright And Claims</p>
+    </footer>
 </body>
 </html>

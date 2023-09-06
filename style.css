@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+header{
+    background-color: #ff8fab;
+    height: calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subheader{
+    font-size: 24.5px;
+    margin: 16px 0px 24px 0px;
+}
+
+button{
+    background-color: #48cae4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.home{
+    padding: 24px;
+}
+
+.introduction{
+    padding: 18px;
+}
+
+.fundamentals{
+    padding: 24px;
+}
+
+.lilyput{
+    width: 100%;
+    padding: 24px;
+}
+
+.discord{
+    display: flex;
+    align-items: center;
+    padding: 24px;
+
+}
+
+.discord_introduction{
+    padding: 24px;
+}
+
+
+.connect{
+    margin-top: 8px;
+}
+
+.discord2{
+    margin-top: 18px;
+}
+
+.give1{
+    margin-top: 8px;
+}
+
+.d1{
+    margin: 18px;
+}
+
+
+.discord_logo{
+    width: 75%;
+}
+
+h1{
+    font-size: 72px;
+}
+
+
+a{
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.d{
+    display: flex;
+    justify-content: space-around;
+}
+
+.character {
+    width: 70%; 
+    margin-left: 25%;
+    
+}
+
+
+.blender_navigation{
+    width: 100%;
+    padding: 24px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+    padding-left: 16px;
+
+}
+
+.row{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+form{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/*
+
+About
+
+*/
+
+#About{
+    padding: 48px 0px;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+}
+
+h3{
+    padding: 18px;
+}
+
+input,textarea{
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+@media(max-width: 728px){
+    .row{
+        flex-direction: column;
+    }
+
+    .home_description{
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home_description--button{
+        max-width: 246px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .subheader{
+        text-align: center;
+        font-size: 28px;
+    }
+    
+    ul{
+        display: none;
+    }
+    
+    .character {
+        width: 70%; 
+        margin-left: 50px;
+        
+    }
+}
