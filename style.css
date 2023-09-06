@@ -173,7 +173,7 @@ input,textarea{
     }
 
     .home_description{
-        padding: 24px;
+        margin-bottom: 24px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -185,7 +185,7 @@ input,textarea{
 
     h1{
         text-align: center;
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .subheader{
@@ -198,7 +198,7 @@ input,textarea{
     }
     
     .character {
-        width: 70%; 
+        width: 50%; 
         margin-left: 50px;
         
     }
